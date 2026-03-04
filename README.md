@@ -44,9 +44,9 @@ O arquivo `cancelamentos.csv` contém dados sobre clientes de uma empresa de str
 - **Jupyter Notebook** - Ambiente interativo para análise
 - **Pandas** - Manipulação e análise de dados
 - **NumPy** - Computação numérica
-- **Matplotlib** - Visualização de gráficos
-- **Seaborn** - Visualizações estatísticas
-- **Scikit-learn** - Ferramentas de machine learning (se aplicável)
+- **Plotly** - Visualização de gráficos
+- **ipykernel** - Executa o código Python dentro do Jupyter Notebook.
+- **nbformat** - ferramenta de infraestrutura do Jupyter.
 
 ## 🚀 Como Executar
 
@@ -72,7 +72,7 @@ source venv/bin/activate  # No Windows: venv\Scripts\activate
 
 3. **Instale as dependências**:
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter scikit-learn
+pip install pandas numpy openpyxl nbformat ipykernel plotly
 ```
 
 4. **Inicie o Jupyter Notebook**:
